@@ -38,3 +38,9 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+
+Compile the application with:
+
+```bash
+pyinstaller --onefile --windowed --additional-hooks-dir=. --name FavZen main.py
+```
